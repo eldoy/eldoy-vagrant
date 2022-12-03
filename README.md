@@ -1,12 +1,12 @@
 # Vagrant Eldøy Projects
 
-Minimal setup for running NodeJS apps with vagrant on Ubuntu 18.04
+Minimal setup for running NodeJS apps with vagrant on Ubuntu 20.04
 
 ### Usage
 
 ```
 # Install Vagrantfile
-vagrant init hashicorp/bionic64
+vagrant init ubuntu/focal64
 
 # Start machine
 vagrant up
