@@ -15,7 +15,8 @@ vagrant up
 vagrant ssh
 
 # Download and execute install script
-curl -fsSL https://raw.github.com/eldoy/vagrant-eldoy/master/install.sh | sudo bash
+curl -fsSL https://raw.githubusercontent.com/eldoy/eldoy-vagrant/master/install.sh | sudo bash
+
 ```
 
 Enjoy!
