@@ -14,6 +14,7 @@ sudo apt -y install build-essential zsh nodejs
 # Install npm packages
 sudo npm i -g npm waveorb nodemon
 
+# Install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
 # SSH keys
@@ -23,7 +24,6 @@ cat /dev/zero | ssh-keygen -q -N ""
 printf "\n\nPlease add this ssh key to your git account:\n\n"
 cat $HOME/.ssh/id_rsa.pub
 
-printf "\n\nDone!\n\nRebooting...\n\n"
-
 # Reboot
+printf "\n\nDone!\n\nRebooting...\n\n"
 reboot now
