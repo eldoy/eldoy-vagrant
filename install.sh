@@ -11,8 +11,11 @@ sudo apt -y autoremove
 # Install essential
 sudo apt -y install build-essential zsh nodejs
 
+# Update npm
+sudo npm i -g npm
+
 # Install npm packages
-sudo npm i -g npm waveorb nodemon
+sudo npm i -g nodemon waveorb
 
 # Install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
